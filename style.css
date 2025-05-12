@@ -35,3 +35,58 @@ h1 {
 .btn:hover {
     background-color: #0056b3;
 }
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #dbe9f4, #ffffff);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background: #003366;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  border-bottom: 4px solid #66ccff;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 12px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #66ccff;
+}
+
+main {
+  padding: 30px 20px;
+  max-width: 800px;
+  margin: auto;
+  background: #ffffffcc;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  margin-top: 30px;
+}
+
+img, video {
+  margin-top: 20px;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
