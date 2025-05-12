@@ -57,3 +57,38 @@ img, video {
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
+.main-header {
+  background: linear-gradient(to right, #004080, #0073e6);
+  padding: 80px 20px;
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.button-menu {
+  margin-top: 30px;
+}
+
+.menu-button {
+  display: inline-block;
+  background: #ffffff;
+  color: #003366;
+  padding: 12px 25px;
+  margin: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.menu-button:hover {
+  background: #cce6ff;
+}
