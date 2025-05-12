@@ -81,12 +81,21 @@ img, video {
   display: inline-block;
   background: #ffffff;
   color: #003366;
-  padding: 12px 25px;
-  margin: 10px;
-  border-radius: 8px;
+  padding: 14px 30px;
+  margin: 12px;
+  border-radius: 30px;
   text-decoration: none;
   font-weight: bold;
-  transition: background 0.3s ease;
+  font-size: 16px;
+  border: 2px solid #003366;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.menu-button:hover {
+  background: #cce6ff;
+  color: #001933;
+  transform: scale(1.05);
 }
 
 .menu-button:hover {
